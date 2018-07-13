@@ -22,6 +22,9 @@
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/github/license/geminos/mathematically.svg" alt="MIT License"/>
   </a>
+  <a href="https://mathematically-slack.herokuapp.com">
+    <img src="https://mathematically-slack.herokuapp.com/badge.svg" alt="Join the community on Slack"/>
+  </a>
 </div>
 
 ## Contributors
