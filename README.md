@@ -1,4 +1,28 @@
-# mathematically
+<div align="center">
+  <h1>mathematically</h1>
+
+  <a href="https://www.flaticon.com/free-icon/calculating_265682#term=calculator&page=1&position=17">
+    <img height="80" width="80" alt="goat" src="./other/calculating.png" />
+  </a>
+
+  <p>A simple mathematical utility package.</p>
+
+  <a href="https://travis-ci.org/geminos/mathematically">
+    <img src="https://img.shields.io/travis/geminos/mathematically.svg" alt="travis build"/>
+  </a>
+  <a href="https://codecov.io/gh/geminos/mathematically">
+    <img src="https://img.shields.io/codecov/c/github/geminos/mathematically.svg" alt="codecov coverage"/>
+  </a>
+  <a href="https://www.npmjs.com/package/@geminos/mathematically">
+    <img src="https://img.shields.io/npm/v/@geminos/mathematically.svg" alt="version"/>
+  </a>
+  <a href="https://www.npmjs.com/package/@geminos/mathematically">
+    <img src="https://img.shields.io/npm/dm/@geminos/mathematically.svg" alt="downloads"/>
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/github/license/geminos/mathematically.svg" alt="MIT License"/>
+  </a>
+</div>
 
 ## Contributors
 
