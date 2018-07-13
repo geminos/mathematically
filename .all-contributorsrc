@@ -1,0 +1,28 @@
+{
+  "projectName": "mathematically",
+  "projectOwner": "geminos",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "matheuspiment",
+      "name": "Matheus Ribeiro Pimenta Nunes",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14007153?v=4",
+      "profile": "https://github.com/matheuspiment",
+      "contributions": [
+        "code",
+        "doc",
+        "example",
+        "ideas",
+        "infra",
+        "platform",
+        "test"
+      ]
+    }
+  ]
+}

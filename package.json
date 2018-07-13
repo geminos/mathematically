@@ -1,0 +1,56 @@
+{
+  "name": "@geminos/mathematically",
+  "version": "0.0.0-development",
+  "description": "Mathematical utility package.",
+  "keywords": [
+    "mathematics"
+  ],
+  "main": "dist/index.js",
+  "repository": "https://github.com/geminos/mathematically",
+  "author": "Matheus Pimenta <matheuspiment@hotmail.com> (https://github.com/matheuspiment)",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "add-contributor": "kcd-scripts contributors add",
+    "commit": "git-cz",
+    "test": "jest --coverage src/__tests__/**.test.js",
+    "check-coverage": "nyc check-coverage --statements 75 --branches 75 --functions 75 --lines 75",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "cover": "nyc yarn test",
+    "prebuild": "rimraf dist",
+    "build": "yarn build:main",
+    "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.2.5",
+    "babel-plugin-module-resolver": "3.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "codecov": "3.0.2",
+    "commitizen": "2.10.1",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "5.0.1",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-import-resolver-babel-module": "4.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "jest": "23.2.0",
+    "kcd-scripts": "0.39.2",
+    "nyc": "12.0.2",
+    "rimraf": "2.6.2",
+    "semantic-release": "^15.7.1",
+    "travis-deploy-once": "^5.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
